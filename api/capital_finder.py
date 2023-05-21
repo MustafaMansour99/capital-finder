@@ -31,7 +31,7 @@ class handler(BaseHTTPRequestHandler):
             msg = f'The country of {capital} is {result}'
         
         else:
-            msg = f"Please add country or capital"
+            msg = f"Please add country or capital !!"
 
         self.send_response(200)
         self.send_header('Content-type','text/plain')
